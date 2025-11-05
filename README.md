@@ -1,6 +1,9 @@
 # Numerical ODE Solver in C
+This project compares three numerical integration methods (Euler, Improved Euler, and Runge–Kutta) implemented in C.
+Includes automated testing, performance analysis, and reproducible build scripts.
+Demonstrates algorithmic reasoning, modular C design, and CI automation.
 
-This project implements numerical methods for solving first-order **Ordinary Differential Equations (ODEs)** of the form:
+Implements numerical methods for solving first-order **Ordinary Differential Equations (ODEs)** of the form:
 
 > y'(t) = f(t, y),  y(a) = y₀
 
